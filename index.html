@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="outside">
+<form id="survey-form" action="/my-handling-form-page" method="post">
+  <h1 id="title">Application for the Tournament</h1>
+  <p id="description"><b>Note:</b> Form is to be completed at least 14 days prior to Competition date</p>
+
+  <fieldset>
+    <legend>Team Details</legend>
+    <div>
+      <label id="name-label" for="name">Team name:</label>
+      <input type="text" required id="teamname" name="user_name" placeholder="Enter name here">   
+    </div>
+    <div>
+      <label for="address-label">Bootcamp Address:</label>
+      <input type="Address" required id="bootcampaddress" name="Address" placeholder="Enter address here">   
+    </div>
+    <table>
+  <tr>
+    <td>
+      <div>
+      <label id="name-label" for="name">Member:</label>
+      <input type="text" required id="name" name="memname" placeholder="Enter name here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="age-label" for="Age">Age</label>
+      <p>
+        <input type="number" name="age" placeholder="Enter Age here">
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="id-label" for="id">ID:</label>
+      <input type="number" required id="number" name="id" placeholder="Enter ID here">
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="ign-label" for="ign">In Game Name (IGN):</label>
+      <input type="text" required id="ign" name="ign" placeholder="Enter name here">   
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Role">Role</label>
+      <p>
+        <input type="checkbox" name="role" value="tank" checked> Tank<br>
+        <input type="checkbox" name="role" value="goldlaner"> Gold Laner<br>
+        <input type="checkbox" name="role" value="core" checked> Core<br>
+        <input type="checkbox" name="role" value="explaner"> Exp Laner<br>
+        <input type="checkbox" name="role" value="support" checked> Support<br>
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Gender">Gender</label>
+      <p>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+      </p>
+    </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+      <label id="name-label" for="name">Member:</label>
+      <input type="text" required id="name" name="memname" placeholder="Enter name here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="age-label" for="Age">Age</label>
+      <p>
+        <input type="number" name="age" placeholder="Enter Age here">
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="id-label" for="id">ID:</label>
+      <input type="number" required id="number" name="id" placeholder="Enter ID here">
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="ign-label" for="ign">In Game Name (IGN):</label>
+      <input type="text" required id="ign" name="ign" placeholder="Enter name here">   
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Role">Role</label>
+      <p>
+        <input type="checkbox" name="role" value="tank" checked> Tank<br>
+        <input type="checkbox" name="role" value="goldlaner"> Gold Laner<br>
+        <input type="checkbox" name="role" value="core" checked> Core<br>
+        <input type="checkbox" name="role" value="explaner"> Exp Laner<br>
+        <input type="checkbox" name="role" value="support" checked> Support<br>
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Gender">Gender</label>
+      <p>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+      </p>
+    </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+      <label id="name-label" for="name">Member:</label>
+      <input type="text" required id="name" name="memname" placeholder="Enter name here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="age-label" for="Age">Age</label>
+      <p>
+        <input type="number" name="age" placeholder="Enter Age here">
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="id-label" for="id">ID:</label>
+      <input type="number" required id="number" name="id" placeholder="Enter ID here">
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="ign-label" for="ign">In Game Name (IGN):</label>
+      <input type="text" required id="ign" name="ign" placeholder="Enter name here">   
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Role">Role</label>
+      <p>
+        <input type="checkbox" name="role" value="tank" checked> Tank<br>
+        <input type="checkbox" name="role" value="goldlaner"> Gold Laner<br>
+        <input type="checkbox" name="role" value="core" checked> Core<br>
+        <input type="checkbox" name="role" value="explaner"> Exp Laner<br>
+        <input type="checkbox" name="role" value="support" checked> Support<br>
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Gender">Gender</label>
+      <p>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+      </p>
+    </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+      <label id="name-label" for="name">Member:</label>
+      <input type="text" required id="name" name="memname" placeholder="Enter name here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="age-label" for="Age">Age</label>
+      <p>
+        <input type="number" name="age" placeholder="Enter Age here">
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="id-label" for="id">ID:</label>
+      <input type="number" required id="number" name="id" placeholder="Enter ID here">
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="ign-label" for="ign">In Game Name (IGN):</label>
+      <input type="text" required id="ign" name="ign" placeholder="Enter name here">   
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Role">Role</label>
+      <p>
+        <input type="checkbox" name="role" value="tank" checked> Tank<br>
+        <input type="checkbox" name="role" value="goldlaner"> Gold Laner<br>
+        <input type="checkbox" name="role" value="core" checked> Core<br>
+        <input type="checkbox" name="role" value="explaner"> Exp Laner<br>
+        <input type="checkbox" name="role" value="support" checked> Support<br>
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Gender">Gender</label>
+      <p>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+      </p>
+    </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+      <label id="name-label" for="name">Member:</label>
+      <input type="text" required id="name" name="memname" placeholder="Enter name here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="age-label" for="Age">Age</label>
+      <p>
+        <input type="number" name="age" placeholder="Enter Age here">
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="id-label" for="id">ID:</label>
+      <input type="number" required id="number" name="id" placeholder="Enter ID here">
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="ign-label" for="ign">In Game Name (IGN):</label>
+      <input type="text" required id="ign" name="ign" placeholder="Enter name here">   
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Role">Role</label>
+      <p>
+        <input type="checkbox" name="role" value="tank" checked> Tank<br>
+        <input type="checkbox" name="role" value="goldlaner"> Gold Laner<br>
+        <input type="checkbox" name="role" value="core" checked> Core<br>
+        <input type="checkbox" name="role" value="explaner"> Exp Laner<br>
+        <input type="checkbox" name="role" value="support" checked> Support<br>
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Gender">Gender</label>
+      <p>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+      </p>
+    </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div>
+      <label id="name-label" for="name">Member:</label>
+      <input type="text" required id="name" name="memname" placeholder="Enter name here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="age-label" for="Age">Age</label>
+      <p>
+        <input type="number" name="age" placeholder="Enter Age here">
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   
+      </div>
+    </td>
+    <td>
+      <div>
+      <label id="id-label" for="id">ID:</label>
+      <input type="number" required id="number" name="id" placeholder="Enter ID here">
+    </div>
+    </td>
+    <td>
+      <div>
+      <label id="ign-label" for="ign">In Game Name (IGN):</label>
+      <input type="text" required id="ign" name="ign" placeholder="Enter name here">   
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Role">Role</label>
+      <p>
+        <input type="checkbox" name="role" value="tank" checked> Tank<br>
+        <input type="checkbox" name="role" value="goldlaner"> Gold Laner<br>
+        <input type="checkbox" name="role" value="core" checked> Core<br>
+        <input type="checkbox" name="role" value="explaner"> Exp Laner<br>
+        <input type="checkbox" name="role" value="support" checked> Support<br>
+      </p>
+    </div>
+    </td>
+    <td>
+      <div>
+      <label for="Gender">Gender</label>
+      <p>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+      </p>
+    </div>
+    </td>
+  </tr>
+</table>
+  </fieldset>
+  <fieldset>
+    <div>
+      <label for="experience">Tournament Experience:</label>
+      <p>Tournaments joined for each category</p>
+      <p>Beginner: 0-5 tournaments</p>
+      <p>Semipro: 6-10 tournaments</p>
+      <p>Pro: 11 or more tournaments</p>
+      <select id="dropdown2">
+      <option value="Beginner">Beginner</option>
+      <option value="Semi-pro">Semipro</option>
+      <option value="Pro">Pro</option>  
+      </select>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Purpose</legend>
+    <div>
+      <label for="msg"></label>
+      <p> In 50 words or more explain why you want to join the tournament</p>
+      <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   </div>
+  </fieldset>
+  <div id="submitbutton">
+    <button type="submit" id="submit">Send your application</button>   </div>
+
+</form>
+  </div>
+</body>
+</html>
